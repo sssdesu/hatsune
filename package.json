@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "esbuild src/main.jsx --bundle --format=esm --outfile=docs/bundle.js --loader:.jsx=jsx --jsx=automatic && cp index.html docs/index.html",
+    "build": "esbuild src/main.jsx --bundle --format=esm --outfile=docs/bundle.js --loader:.jsx=jsx --jsx=automatic --legal-comments=none && cp index.html docs/index.html",
     "start": "npm run build -- --watch"
   },
   "dependencies": {
