@@ -7,7 +7,7 @@ import path from "node:path";
 export default defineConfig({
   // If this is a *project* page: set to "/your-repo-name/"
   // If this is "username.github.io": set to "/"
-  base: "/your-repo-name/",
+  base: "/hatsune/",
   plugins: [react(), tailwindcss({ config: path.resolve(__dirname, "tailwind.config.cjs") })],
   resolve: {
     alias: { "@": path.resolve(__dirname, "./src") },
